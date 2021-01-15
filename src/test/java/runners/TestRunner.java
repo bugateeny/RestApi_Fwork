@@ -9,13 +9,14 @@ import org.junit.runner.RunWith;
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber.html",
-                "json:target/cucumber/cucumber.json",
+                "json:target/cucumber-reports/cucumber.json",
         },
-        features = "src/main/resources/features_Files",
+        features = {"src/main/resources/features_Files"},
+        glue = {"step_Definitions"},
         monochrome = true,
-        tags = "@Regression",
-        glue = {"step_Definitions"})
+        tags = "@Regression"
 
+)
 
 //@RunWith(Cucumber.class)
 //@CucumberOptions(features = "src/main/resources/features_Files",

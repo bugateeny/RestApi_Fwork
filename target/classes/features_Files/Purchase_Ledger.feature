@@ -1,6 +1,6 @@
 Feature:  Create a Purchase Ledger Account / link as a Subcontractor Account
 
-  @Regression
+#  @Regression
   Scenario Outline: I want to manage all supplier accounts in Supplier Management software and for all updates/changes to feed through to Vixen.
   I don't have to enter the Supplier’s details twice.
 
