@@ -5,16 +5,16 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/main/resources/features_Files", monochrome = true,
+@CucumberOptions(
         plugin = {
                 "pretty",
-                "html:target/cucumber.html",
+                "html:target/cucumber-reports/cucumber.html",
                 "json:target/cucumber/cucumber.json",
-                "junit:target/cucumber.xml",
         },
-        tags = "@Regression", glue = {"step_Definitions"})
-
-
+        features = "src/main/resources/features_Files",
+        monochrome = true,
+        tags = "@Regression",
+        glue = {"step_Definitions"})
 
 
 //@RunWith(Cucumber.class)
