@@ -11,17 +11,26 @@
     <build>
     <plugins>
 
+<!--        <plugin>-->
+<!--            <groupId>org.apache.maven.plugins</groupId>-->
+<!--            <artifactId>maven-surefire-plugin</artifactId>-->
+<!--            <version>3.0.0-M5</version>-->
+<!--            <configuration>-->
+<!--                <suiteXmlFiles>-->
+<!--                    <suiteXmlFile>testng.xml</suiteXmlFile>-->
+<!--                </suiteXmlFiles>-->
+<!--            </configuration>-->
+<!--        </plugin>-->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.0.0-M5</version>
             <configuration>
-                <suiteXmlFiles>
-                    <suiteXmlFile>testng.xml</suiteXmlFile>
-                </suiteXmlFiles>
+                <includes>
+                    <include>Sample.java</include>
+                </includes>
             </configuration>
         </plugin>
-
 <!--        <plugin>-->
 <!--            <groupId>net.masterthought</groupId>-->
 <!--            <artifactId>maven-cucumber-reporting</artifactId>-->
@@ -142,11 +151,11 @@
 
 
 
-        <!--        <dependency>-->
-<!--            <groupId>org.testng</groupId>-->
-<!--            <artifactId>testng</artifactId>-->
-<!--            <version>7.3.0</version>-->
-<!--        </dependency>-->
+                <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.3.0</version>
+        </dependency>
 
     </dependencies>
 
