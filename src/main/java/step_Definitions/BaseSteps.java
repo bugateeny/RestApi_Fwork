@@ -33,9 +33,9 @@ public class BaseSteps {
     public BaseSteps(){
         serviceUrl = "http://192.168.132.176:54040/api.vixen/";
 
-        MakeAJobInterfacePayload = "/templates/CreateAJobWithInterface.json";
-        MakeAJobNoInterfacePayload = "/templates/CreateAJobNoInterface.json";
-        MakeAJobEventPayload = "/templates/ templates/CreateAJobsEvent.json";
+        MakeAJobInterfacePayload = "/templates/CreateAJobWithInterface.jso";
+        MakeAJobNoInterfacePayload = "/templates/CreateAJobNoInterface.jso";
+        MakeAJobEventPayload = "/templates/CreateAJobsEvent.jso";
 
         make_A_Job_ID_Interface_Endpoint = serviceUrl + "jobs/id/" ;
         make_A_Job_With_InterfaceEndpoint = serviceUrl + "jobs/reactive/"; // Interface tag in body request "interfaceJob": "true"  makes it different to other POST
@@ -43,7 +43,7 @@ public class BaseSteps {
         makeAJobEventEndpoint = serviceUrl + "jobevents/clients/id/01ADE001+?interfaceJobsOnly=true&deleteLater=false/"; //   Create a job event
 
         //PL
-        Make_A_PL_Payload= "/templates/Create_A_PL_Account.json";
+        Make_A_PL_Payload= "/templates/Create_A_PL_Account.j";
         make_A_PL_Account= serviceUrl + "suppliers/";
 
     }
