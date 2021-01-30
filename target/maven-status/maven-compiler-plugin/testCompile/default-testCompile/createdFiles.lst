@@ -1,0 +1,5 @@
+restAssuredQuickTest\post_Schedule.class
+restAssuredQuickTest\test_Get.class
+runners\TestRunner.class
+restAssuredQuickTest\test_Post.class
+doddsApi\jobCallOut.class

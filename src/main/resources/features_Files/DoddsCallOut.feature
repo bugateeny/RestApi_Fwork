@@ -25,7 +25,7 @@ Feature: Dodds Interface Jobs call-Out
     Examples:
       | companyNumber | contact  | description          | uprn      | orderNumber | priority | siteAccount | jobNo  | jobId    | interfaceJob |
       | 01            | Adey BDD | New Callout via BDD1 | DODDS-REF | DODDS00     | 1        | ADE001      | M00095 | 01M00095 | true         |
-      | 01            | Adey BDD | New Callout via BDD2 | DODDS-REF | DODDS00     | 2        | ADE001      | M00095 | 01M00095 | true         |
+#      | 01            | Adey BDD | New Callout via BDD2 | DODDS-REF | DODDS00     | 2        | ADE001      | M00095 | 01M00095 | true         |
 #      | 01            | Adey BDD | New Callout via BDD3 | DODDS-REF | DODDS00     | 3        | ADE001      | M00095 | 01M00095 | false        |
 #      | 01            | Adey BDD | New Callout via BDD4 | DODDS-REF | DODDS00     | 4        | ADE001      | M00095 | 01M00095 | true         |
 #      | 01            | Adey BDD | New Callout via BDD5 | DODDS-REF | DODDS00     | 5        | ADE001      | M00095 | 01M00095 | false        |

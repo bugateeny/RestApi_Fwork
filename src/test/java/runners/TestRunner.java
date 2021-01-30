@@ -6,16 +6,23 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+//        plugin = {
+//                "pretty",
+//                "html:target/cucumber.html",
+//                "json:target/cucumber/cucumber-reports.json",
+//                "junit:target/cucumber.xml",
         plugin = {
                 "pretty",
                 "html:target/cucumber.html",
-                "json:target/cucumber/cucumber-reports.json",
-                "junit:target/cucumber.xml",
+                "json:target/cucumber/cucumber-report.json",
+                "junit:target/cucumber.xml"
         },
         features = {"src/main/resources/features_Files"},
         glue = {"step_Definitions"},
         monochrome = true,
         tags = "@Regression"
+
+
 
 )
 
