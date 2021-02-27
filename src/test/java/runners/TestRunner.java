@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/main/resources/features_Files"},
+        features = {"src/main/resources/features"},
 
         glue = {"step_Definitions"},
         monochrome = true,

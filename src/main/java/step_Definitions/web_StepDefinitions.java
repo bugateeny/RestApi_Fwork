@@ -2,20 +2,17 @@ package step_Definitions;
 
 import base_Web.BaseUtil;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
+
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import utilities.PropertiesReader;
+
 
 
 public class web_StepDefinitions extends BaseUtil {
 
 
-    private BaseUtil base;
-
-    public web_StepDefinitions(BaseUtil base) {
-        this.base = base;
+    public web_StepDefinitions() {
     }
 
 
