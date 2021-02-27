@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.932">
+<testcase classname="Create a SupplierId" name="I want to manage all supplier accounts in Supplier Management software and for all updates/changes to feed through to Vixen." time="11.645">
+<system-out><![CDATA[Given your are connected to server..........................................passed
+Given Service is up and running.............................................passed
+When I enter all the essential elements to create PL account load, like "01","01ADE31","PL_API Test1","307;Wolves;Wolves;;","API1", if it is a subcontractor include the follow "true", "898989887".passed
+Then Then I should validate "01ADE31" and status code returns 200...........passed
+]]></system-out>
+</testcase>
+</testsuite>
