@@ -13,7 +13,7 @@ Background:
 
     Examples:
       | companyNumber | suppliersId | name         | address             | sortKey | subcontractor | subconVatNumber |
-      | 01            | 01ADE24     | PL_API Test1 | 307;Wolves;Wolves;; | API1    | true          | 898989887       |
+      | 01            | 01ADE25     | PL_API Test1 | 307;Wolves;Wolves;; | API1    | true          | 898989887       |
 #      | 01            | 01ADE052    | PL_API Test2 | 307;Wolves;;Wolves; | API2    | true          | 898989887       |
 #      | 01            | 01ADE053    | PL_API Test3 | 307;Wolves;Wolves;  | API3    | true          | 898989887       |
 
