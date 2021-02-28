@@ -15,7 +15,7 @@ Background:
       | companyNumber | suppliersId | name         | address             | sortKey | subcontractor | subconVatNumber |
       | 01            | 01ADE37    | PL_API Test1 | 307;Wolves;Wolves;; | API1    | true          | 898989887       |
       | 01            | 01ADE057    | PL_API Test2 | 307;Wolves;;Wolves; | API2    | true          | 898989887       |
-#      | 01            | 01ADE053    | PL_API Test3 | 307;Wolves;Wolves;  | API3    | true          | 898989887       |
+
 
 
 #Feature: Credit card payment
